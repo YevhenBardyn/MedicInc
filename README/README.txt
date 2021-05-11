@@ -1,0 +1,1 @@
+В свою Sql MS заресторь бекап бази в папці BackUp і в файлі Web.config поміняй дані Data Source і Initial Catalog на свої
