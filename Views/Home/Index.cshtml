@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "MedicInc";
+}
+@using (Html.BeginForm("Search", "Home", FormMethod.Post))
+{
+    <h2 style="text-align:center">Serch your symptom</h2>
+    <div style="text-align:center"><input  type="text" name="Symptom" /></div>
+    <div style="text-align:center; padding-top:10px"><input type="submit" value="Search" /></div>
+}
