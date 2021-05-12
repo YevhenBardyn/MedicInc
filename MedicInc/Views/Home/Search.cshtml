@@ -9,3 +9,7 @@ Name: @Model.Name
 Symprom: @Model.Symptom
 <br />
 Text: @Model.Info
+<br />
+<div>
+    @Html.ActionLink("Redirect to Home", "Index", "Home", new { @class = "btn btn-warning" })
+</div>
